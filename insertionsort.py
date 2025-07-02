@@ -14,6 +14,6 @@ def insertion_sort_desc(arr):
 
 # Example usage
 arr = [12, 11, 13, 5, 6]
-print("Original:", arr)
+print("Original Array:", arr)
 sorted_arr = insertion_sort_desc(arr)
 print("Sorted numbers in Descending:", sorted_arr)
