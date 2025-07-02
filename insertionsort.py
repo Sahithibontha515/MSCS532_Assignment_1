@@ -3,8 +3,7 @@ def insertion_sort_desc(arr):
         key = arr[i]
         j = i - 1
 
-        # Move elements of arr[0..i-1], that are less than key,
-        # to one position ahead to make room for key
+       
         while j >= 0 and arr[j] < key:
             arr[j + 1] = arr[j]
             j -= 1
@@ -12,7 +11,6 @@ def insertion_sort_desc(arr):
 
     return arr
 
-# Example usage
 arr = [12, 11, 13, 5, 6]
 print("Original Array:", arr)
 sorted_arr = insertion_sort_desc(arr)
